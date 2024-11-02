@@ -27,6 +27,7 @@ body {
     font-size: 17px; 
     line-height: 24px; 
     margin-bottom: 30px; 
+<<<<<<< HEAD
 }
 
 @media (max-width: 767px) {
@@ -43,4 +44,6 @@ body {
         width: 100%;
         height: auto;
     }
+=======
+>>>>>>> 26795c39079ca0509aa355039c6a90d5ec0d7029
 }
