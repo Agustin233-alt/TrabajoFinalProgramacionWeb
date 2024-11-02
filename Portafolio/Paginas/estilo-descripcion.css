@@ -1,0 +1,46 @@
+* {
+    background-color: lavender;
+}
+
+body {
+    font-family: 'InriaSans', sans-serif;
+    font-size: 12px;
+}
+
+.seccion .contenedor-imagen {
+   display: flex;
+   justify-content: center;
+}
+
+.seccion .contenedor-imagen .img {
+    width: -25%;
+    margin-bottom: 10px;
+}
+
+.seccion .contenedor-texto .descripcion {
+    margin-bottom: 10px;
+    font-size: 23px;
+    line-height: 37px;
+}
+
+.seccion .contenedor-texto .volver {
+    font-size: 17px; 
+    line-height: 24px; 
+    margin-bottom: 30px; 
+}
+
+@media (max-width: 767px) {
+    .seccion {
+        padding: 10px;
+    }
+
+    .contenedor-texto h1 {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .contenedor-imagen .img img {
+        width: 100%;
+        height: auto;
+    }
+}
