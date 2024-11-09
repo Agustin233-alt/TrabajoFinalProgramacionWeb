@@ -48,6 +48,7 @@ body {
 .boton-violeta:hover {
     background-color: black; /* Cambia el fondo a negro al pasar el cursor */
     opacity: 1; /* Opacidad completa al pasar el cursor */
+}
 
 @media (max-width: 767px) {
     .seccion {
@@ -63,4 +64,5 @@ body {
         width: 100%;
         height: auto;
     }
+
 }
