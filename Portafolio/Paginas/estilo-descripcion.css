@@ -1,0 +1,68 @@
+* {
+    background-color: lavender;
+}
+
+body {
+    font-family: 'InriaSans', sans-serif;
+    font-size: 12px;
+}
+
+.seccion .contenedor-imagen {
+   display: flex;
+   justify-content: center;
+}
+
+.seccion .contenedor-imagen .img {
+    width: -25%;
+    margin-bottom: 10px;
+}
+
+.seccion .contenedor-texto .descripcion {
+    margin-bottom: 10px;
+    font-size: 23px;
+    line-height: 37px;
+}
+
+.seccion .contenedor-texto .volver {
+    font-size: 17px; 
+    line-height: 24px; 
+    margin-bottom: 30px; 
+}
+
+/* Agregar el estilo de .boton-rojo directamente en el archivo HTML o en estilo-descripcion.css */
+.boton-violeta {
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-grid;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    background: rgb(202, 76, 170);
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0.7; /* Opacidad inicial */
+    transition: opacity 0.3s ease; /* Transición suave */
+}
+
+.boton-violeta:hover {
+    background-color: black; /* Cambia el fondo a negro al pasar el cursor */
+    opacity: 1; /* Opacidad completa al pasar el cursor */
+}
+
+@media (max-width: 767px) {
+    .seccion {
+        padding: 10px;
+    }
+
+    .contenedor-texto h1 {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .contenedor-imagen .img img {
+        width: 100%;
+        height: auto;
+    }
+}
