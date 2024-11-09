@@ -68,7 +68,14 @@ header .menu a {
     text-decoration: none; /* Quita subrayado de los enlaces */
     border-bottom: 5px transparent; /* Línea inferior transparente */
     font-size: 1em; /* Tamaño de fuente de los enlaces */
+<<<<<<< HEAD
     border-bottom: 5px solid transparent
+=======
+<<<<<<< HEAD
+    border-bottom: 5px solid transparent
+=======
+>>>>>>> 26795c39079ca0509aa355039c6a90d5ec0d7029
+>>>>>>> c80f1e3a27e9a63d48b841f5d6c72d1e03b0dd16
 }
 
 header .menu a:hover {
@@ -169,7 +176,14 @@ header .contenedor-texto .texto .profesion {
 .main .galeria .contenedor-galeria .galeria {
     width: 31%; /* Ancho de cada elemento de la galería */
     margin-bottom: 40px; /* Margen inferior */
+<<<<<<< HEAD
     text-decoration: none;
+=======
+<<<<<<< HEAD
+    text-decoration: none;
+=======
+>>>>>>> 26795c39079ca0509aa355039c6a90d5ec0d7029
+>>>>>>> c80f1e3a27e9a63d48b841f5d6c72d1e03b0dd16
 }
 
 .main .galeria .contenedor-galeria .galeria .thumb {
@@ -198,7 +212,15 @@ header .contenedor-texto .texto .profesion {
  }
 
 .main .galeria .contenedor-galeria .galeria .categorias {
+<<<<<<< HEAD
     font-size: 14px; /* Tamaño de la fuente para las categorías */
+=======
+<<<<<<< HEAD
+    font-size: 14px; /* Tamaño de la fuente para las categorías */
+=======
+    font: 14px; /* Tamaño de la fuente para las categorías */
+>>>>>>> 26795c39079ca0509aa355039c6a90d5ec0d7029
+>>>>>>> c80f1e3a27e9a63d48b841f5d6c72d1e03b0dd16
     color: rgb(214, 0, 150); /* Color de las categorías */
 }
 
@@ -251,7 +273,14 @@ footer .contacto .formulario textarea {
     padding: 15px 10px; /* Espaciado interno */
     font-size: 20px; /* Tamaño de la fuente */
     color: #222222; /* Color del texto */
+<<<<<<< HEAD
     border: 4px solid transparent;
+=======
+<<<<<<< HEAD
+    border: 4px solid transparent;
+=======
+>>>>>>> 26795c39079ca0509aa355039c6a90d5ec0d7029
+>>>>>>> c80f1e3a27e9a63d48b841f5d6c72d1e03b0dd16
 }
 
 footer .contacto .formulario input[type="text"]:hover,
@@ -322,7 +351,14 @@ footer .redes-sociales .github:hover { background: #666666; } /* Color al pasar 
 
     .main .galeria .contenedor-galeria .galeria {
         width: 46%; /* Cambia el ancho de las galerías en pantallas pequeñas */
+<<<<<<< HEAD
         text-decoration: none;
+=======
+<<<<<<< HEAD
+        text-decoration: none;
+=======
+>>>>>>> 26795c39079ca0509aa355039c6a90d5ec0d7029
+>>>>>>> c80f1e3a27e9a63d48b841f5d6c72d1e03b0dd16
     }
 }
 
@@ -335,6 +371,7 @@ footer .redes-sociales .github:hover { background: #666666; } /* Color al pasar 
         font-size: 42; /* Tamaño de fuente para la profesión (falta 'px') */
     }
 
+<<<<<<< HEAD
     .article {
         padding: 20px; /* Añade un espacio alrededor de toda la sección del artículo */
     }
@@ -367,6 +404,49 @@ footer .redes-sociales .github:hover { background: #666666; } /* Color al pasar 
         font-size: 18px; /* Tamaño de fuente para el cuerpo del artículo */
         line-height: 1.6; /* Espacio entre líneas para mejor legibilidad */
         color: #666; /* Color gris medio para el texto del párrafo */
+=======
+<<<<<<< HEAD
+    .article {
+        padding: 20px; /* Añade un espacio alrededor de toda la sección del artículo */
+    }
+    
+    .article .contenedor {
+        max-width: 1200px; /* Limita el ancho máximo del contenedor a 1200 píxeles */
+        margin: 0 auto; /* Centra el contenedor en la página */
+        padding: 20px; /* Añade margen interno para separar el contenido de los bordes */
+    }
+    
+    .article .contenedor-imagen img {
+        width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+        border-radius: 8px; /* Redondea ligeramente las esquinas de la imagen */
+        margin-bottom: 20px; /* Espacio debajo de la imagen para separación visual */
+    }
+    
+    .article .contenedor-texto {
+        text-align: left; /* Alinea el texto a la izquierda */
+    }
+    
+    .article .titulo {
+        font-size: 36px; /* Tamaño de fuente para el título */
+        font-weight: bold; /* Hace el título grueso */
+        color: #333; /* Color gris oscuro para el título */
+        margin-bottom: 10px; /* Añade espacio debajo del título */
+    }
+    
+    .article .parrafos {
+        font-size: 18px; /* Tamaño de fuente para el cuerpo del artículo */
+        line-height: 1.6; /* Espacio entre líneas para mejor legibilidad */
+        color: #666; /* Color gris medio para el texto del párrafo */
+=======
+    .article .contenedor-texto .titulo {
+        font-size: 50; /* Tamaño de fuente para el título (falta 'px') */
+    }
+
+    .article .contenedor-texto .parrafos {
+        font-size: 35; /* Tamaño de fuente para los párrafos (falta 'px') */
+>>>>>>> 26795c39079ca0509aa355039c6a90d5ec0d7029
+>>>>>>> c80f1e3a27e9a63d48b841f5d6c72d1e03b0dd16
     }
 
     footer .redes-sociales .contenedor {
