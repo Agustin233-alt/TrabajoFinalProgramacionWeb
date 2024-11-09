@@ -27,7 +27,6 @@ body {
     font-size: 17px; 
     line-height: 24px; 
     margin-bottom: 30px; 
-<<<<<<< HEAD
 }
 
 .boton-violeta {
@@ -38,21 +37,17 @@ body {
     text-align: center;
     padding: 10px;
     color: #ffffff;
-    background: rgb(202, 76, 170);
+    background: rgb(255, 64, 242);
     text-decoration: none;
     border-radius: 8px;
     cursor: pointer;
     opacity: 0.7; /* Opacidad inicial */
-    transition: opacity 0.3s ease; /* Transición suave */
+    transition: opacity 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
 }
 
 .boton-violeta:hover {
     background-color: black; /* Cambia el fondo a negro al pasar el cursor */
     opacity: 1; /* Opacidad completa al pasar el cursor */
-=======
-<<<<<<< HEAD
->>>>>>> c80f1e3a27e9a63d48b841f5d6c72d1e03b0dd16
-}
 
 @media (max-width: 767px) {
     .seccion {
@@ -68,9 +63,4 @@ body {
         width: 100%;
         height: auto;
     }
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 26795c39079ca0509aa355039c6a90d5ec0d7029
->>>>>>> c80f1e3a27e9a63d48b841f5d6c72d1e03b0dd16
 }
